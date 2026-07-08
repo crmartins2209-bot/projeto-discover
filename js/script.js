@@ -4,13 +4,13 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./avatar-light.png")
+    img.setAttribute("src", "../assets/avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de Mayk Brito sorrindo, usando oculos e camiseta preta",
     )
   } else {
-    img.setAttribute("src", "./avatar.png")
+    img.setAttribute("src", "../assets/avatar.png")
     img.setAttribute(
       "alt",
       "Foto de Mayk Brito usando moletom preto, sorrindo e oculos escuros",
